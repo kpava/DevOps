@@ -1,0 +1,64 @@
+<me-host loadWeight="1" sapSupport="false" standalone="false"
+    supportWANEmulation="false" uid="localhost" version="6.8.1;build=20190204-42">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface
+        description="Qualcomm QCA61x4A 802.11ac Wireless Adapter"
+        enabled="false" isLoopBack="false" name="wlan1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="chbog3s07xs2.corp.choucairtesting.local">
+            <ip value="172.17.27.170"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:7983:714b:c484:c95f%wlan1">
+            <ip value="fe80:0:0:0:7983:714b:c484:c95f%wlan1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Realtek PCIe GBE Family Controller"
+        enabled="false" isLoopBack="false" name="eth8">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:ac7d:816f:9656:b814%eth8">
+            <ip value="fe80:0:0:0:ac7d:816f:9656:b814%eth8"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth7">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:7524:d012:80bb:b951%eth7">
+            <ip value="fe80:0:0:0:7524:d012:80bb:b951%eth7"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter #2"
+        enabled="false" isLoopBack="false" name="eth10">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="chbog3s07xs2.corp.choucairtesting.local">
+            <ip value="10.0.75.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:59f1:70e4:a40:5428%eth10">
+            <ip value="fe80:0:0:0:59f1:70e4:a40:5428%eth10"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Fortinet Virtual Ethernet Adapter (NDIS 6.30)"
+        enabled="false" isLoopBack="false" name="eth12">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:2143:44ca:fa79:5b16%eth12">
+            <ip value="fe80:0:0:0:2143:44ca:fa79:5b16%eth12"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>

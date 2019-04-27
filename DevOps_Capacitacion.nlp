@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=DevOps_Capacitacion
+project.version=6.5
+project.original.version=4.2
+product.name=NeoLoad
+product.original.name=
+product.original.version=
+project.id=98ad92e2-e958-4f5e-94fa-f74caa6d492a
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/kpava/DevOps.git
